@@ -5,12 +5,16 @@ import './Header.css';
 function Header() {
   return (
     <div className="header">
-        <a href="/" className="header__link">
+        <NavLink exact to="/" className="header__logo">
             Tefo Oy
-        </a>
-        <a href="/" className="header__link">
+        </NavLink>
+        <NavLink exact to="/" className="header__link">
             About us
-        </a>
+        </NavLink>
+        <NavLink exact to="/" className="header__link">
+            Contact information
+        </NavLink>
+        <button>Contact us</button>
     </div> 
   );
 }
