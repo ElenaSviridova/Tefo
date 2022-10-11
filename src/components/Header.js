@@ -8,6 +8,9 @@ function Header() {
         <a href="/" className="header__link">
             Tefo Oy
         </a>
+        <a href="/" className="header__link">
+            About us
+        </a>
     </div> 
   );
 }
