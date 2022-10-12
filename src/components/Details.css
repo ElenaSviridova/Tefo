@@ -1,0 +1,31 @@
+.details {
+    display: grid;
+    padding: 0 160px 96px;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.details_img {
+    max-width: 544px;
+    height: 600px;
+}
+
+.details_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.details_input {
+    margin: 32px 0 0;
+    height: 48px;
+}
+
+.margin {
+    margin-bottom: 32px;
+}
+
+.details_input::placeholder {
+    font-size: 16px;
+    font-family: Inter, Helvetica, sans-serif;
+    padding: 8px 0 0 16px;
+}
