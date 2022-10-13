@@ -1,13 +1,35 @@
 .details {
     display: grid;
-    padding: 0 160px 96px;
+    padding: 0 0 96px;
+    margin: 0 160px;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
 }
 
+@media all and (max-width: 1024px) {
+    .details {
+        margin: 0 48px;
+    }
+}    
+
+@media all and (max-width: 768px) {
+    .details {
+        margin: 0 24px;
+        grid-template-columns: 1fr;
+        padding: 0 0 32px;
+    }
+}    
+
+@media all and (max-width: 320px) {
+    .details {
+        margin: 0 16px;
+    }
+}    
+
 .details_img {
-    max-width: 544px;
-    height: 600px;
+    object-fit: contain;
+    width: 100%;
+    /* min-height: 600px; */
 }
 
 .details_form {
@@ -22,6 +44,7 @@
 
 .margin {
     margin-bottom: 32px;
+    height: 140px;
 }
 
 .details_input::placeholder {

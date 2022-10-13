@@ -6,7 +6,7 @@ import flowerImg from '../images/flower.png'
 
 function Details() {
     return (
-      <div className="details">
+      <div className="details" id='contactUs'>
           <img className='details_img' alt='pict' src={flowerImg}></img>
           <form className='details_form'>
                 <h2 className='title'>Contact us</h2>

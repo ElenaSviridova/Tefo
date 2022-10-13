@@ -5,18 +5,18 @@ import './Header.css';
 function Header() {
   return (
     <div className="header">
-        <NavLink exact to="/" className="header__logo">
+        <a href="/" className="header__logo">
             Tefo Oy
-        </NavLink>
+        </a>
         <div className='header_menu'>
-            <NavLink exact to="/" className="header__link">
+            <a href="#aboutUs" className="header__link">
                 About us
-            </NavLink>
-            <NavLink exact to="/" className="header__link info">
+            </a>
+            {/* <NavLink exact to="/" className="header__link info">
                 Contact information
-            </NavLink>
+            </NavLink> */}
         </div>
-        <button className='button'>Contact us</button>
+        <button className='button'><a className='header_button_link' href='#contactUs'>Contact us</a></button>
     </div> 
   );
 }

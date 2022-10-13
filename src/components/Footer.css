@@ -16,7 +16,7 @@
     .footer {
         padding: 0 10px 10px;
         grid-template-columns: 1fr;
-        background-color: #FAFAFA;
+        background-color: rgb(234, 218, 208);
     }
 }
 

@@ -5,7 +5,7 @@ import  icon_second from '../images/icon-explorer.svg';
 
 function AboutUs() {
     return (
-      <div className="about_us">
+      <div className="about_us" id='aboutUs'>
           <h2 className='about_us_title'>About Us</h2>
           <div className='about_us_list'>
             <article className='about_us_card'>
@@ -23,7 +23,7 @@ function AboutUs() {
             <article className='about_us_card'>
                 <div className='about_us_frame'>
                     <img className='about_us_icon' alt='icon' src={icon_first}></img>
-                    <span className='about_us_span'>High level of specialists qualification</span>
+                    <span className='about_us_span'>Work from 2007</span>
                 </div>
             </article>
           </div>
