@@ -11,7 +11,7 @@ function Details() {
           <article className='details_article'>
             <p className='details_text'>Our service is available in Finland, Spain, France, UK.
             If you have a property to rent and don't want a hassle with the process, get in touch with us!</p>
-            <button className='button' type='submit'>Contact us</button>
+            <button className='button' type='submit'>Opens your local e-mail client</button>
           </article>
 
           {/* <form className='details_form'>

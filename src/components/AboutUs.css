@@ -60,13 +60,7 @@
         align-items: center;
         margin-top: 32px;
     }
-}    
-
-@media all and (max-width: 320px) {
-    .about_us_list {
-        
-    }
-}    
+}        
 
 .about_us_card {
     box-sizing: border-box;
