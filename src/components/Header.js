@@ -16,7 +16,7 @@ function Header() {
                 Contact information
             </NavLink> */}
         </div>
-        <button className='button'><a className='header_button_link' href='#contactUs'>Contact us</a></button>
+        <button className='button'><a className='button_link' href='#contactUs'>Contact us</a></button>
     </div> 
   );
 }

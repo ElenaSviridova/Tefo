@@ -98,4 +98,11 @@
 
 .about_us_span {
  text-align: center;
+ font-size: 24px;
 }
+
+@media all and (max-width: 425px) {
+    .about_us_span {
+        font-size: 16px;
+    }
+} 
