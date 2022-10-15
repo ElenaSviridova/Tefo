@@ -4,14 +4,14 @@
     align-items:flex-start;
     justify-content: center;
     width: 100%;
-    min-height: 860px;
+    height: 90vh;
     background-image: url(../images/interier.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-@media all and (max-width: 1024px) {
+/* @media all and (max-width: 1024px) {
     .main {
         min-height: 640px;
     }
@@ -27,7 +27,7 @@
     .main {
         min-height: 320px;
     }
-}
+} */
 
 .main_paragraph {
     max-width: 595px;
