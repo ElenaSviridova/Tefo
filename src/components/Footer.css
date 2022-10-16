@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, minmax(min-content, max-content));
-    background-color: rgb(234, 218, 208);
+    background-color: #E4E5EA;
 }
 
 @media all and (max-width: 768px) {
@@ -27,7 +27,7 @@
     line-height: 16px;
     font-family: 'Inter', 'Arial', sans-serif;
     color: #A0A0A0;
-    padding: 79px 0 20px;
+    padding: 48px 0 20px;
     margin: 0 0 20px;
     border-bottom: 1px solid rgb(208 201 181);
     grid-column-start: 1;

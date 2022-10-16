@@ -1,37 +1,31 @@
 .main {
     display:flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: center;
-    width: 100%;
-    height: 90vh;
-    background-image: url(../images/interier.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color:#E4E5EA;
+    margin: 48px 160px 0;
 }
 
-/* @media all and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     .main {
-        min-height: 640px;
+        margin: 0 96px;
     }
 }
 
 @media all and (max-width: 768px) {
     .main {
-        min-height: 480px;
+        margin: 0 48px;
     }
 }
 
 @media all and (max-width: 425px) {
     .main {
-        min-height: 320px;
+        margin: 0 16px
     }
-} */
+}
 
-.main_paragraph {
+.main__paragraph {
     max-width: 595px;
-    margin-left: 160px;
 }
 
 @media all and (max-width: 1024px) {
@@ -58,6 +52,8 @@
     font-family: Inter, Helvetica, sans-serif;
     font-weight: 600;
     margin: 0 0 32px;
+    text-transform: uppercase;
+    color: #FF4D00;
 }
 
 @media all and (max-width: 768px) {
@@ -74,16 +70,38 @@
     }
 }    
 
-.main_subtitle {
+.main__text {
     font-family: Inter, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    margin: 16px 0px 24px;
+    font-size: 24px;
+    margin: 64px 0;
 }
 
+@media all and (max-width: 1024px) {
+    .main_text {
+        font-size: 32px;
+        
+    }
+}   
+
+@media all and (max-width: 768px) {
+    .main_text {
+        font-size: 24px;
+        
+    }
+}   
+
 @media all and (max-width: 425px) {
-    .main_subtitle {
+    .main_text {
         font-size: 16px;
         
     }
 }   
+
+.main__img {
+    max-width: 545px;
+}
+
+.main__button {
+    width: 100%;
+}

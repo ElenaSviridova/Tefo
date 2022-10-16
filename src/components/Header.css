@@ -2,21 +2,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 0;
     margin: 0 160px;
-    max-height: 72px;
-    background-color: rgb(234, 218, 208); 
+    height: 85px;
+    background-color: #E4E5EA; 
 }
 
 @media all and (max-width: 1024px) {
     .header {
-        margin: 0 48px;
+        margin: 0 96px;
     }
 }    
 
 @media all and (max-width: 768px) {
     .header {
-        margin: 0 24px;
+        margin: 0 48px;
     }
 }    
 
@@ -27,66 +26,76 @@
 }    
 
 .header__logo {
-  font-size: 32px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 600;
-  color: rgb(109, 25, 25);
+  color: black;
   text-decoration: none;
 }
 
 @media all and (max-width: 768px) {
     .header__logo {
-        font-size: 24px;
+        font-size: 32px;
     }
 }  
 
 @media all and (max-width: 425px) {
     .header__logo {
-        font-size: 16px;
+        font-size: 24px;
+    }
+} 
+
+@media all and (max-width: 320px) {
+    .header__logo {
+        font-size: 20px;
     }
 } 
 
 .header__link {
-    font-size: 32px;
+    font-size: 24px;
     font-family: Inter, Helvetica, sans-serif;
-    font-weight: 400;
-    color: rgb(109, 25, 25);
+    font-weight: 900;
+    color: #007EB9;
     text-decoration: none;
 }
 
-@media all and (max-width: 768px) {
-    .header__link {
-        font-size: 24px;
-    }
-}  
-
-@media all and (max-width: 425px) {
+@media all and (max-width: 425) {
     .header__link {
         font-size: 16px;
     }
 }  
 
-.info {
-    margin-left: 32px;
+@media all and (max-width: 320px) {
+    .header__link {
+        font-size: 14px;
+    }
+}  
+
+.header__button {
+    width: 161px;
 }
 
-.header_menu {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
+@media all and (max-width: 768px) {
+    .header__button {
+        width: 121px;
+        
+    }
+} 
+
+@media all and (max-width: 425px) {
+    .header__button {
+        width: 63px;
+    }
+} 
 
 .button {
-    max-width: max-content;
+    box-sizing: border-box;
     height: 53px;
-    text-align: left;
-    padding: 0 24px;
-    font-size: 32px;
-    font-family: Inter, Helvetica, sans-serif;
-    background-color: rgb(109, 25, 25);
-    color: white;
-    border: none;
-    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 10%);
+    border: solid 3px #007EB9;
+    border-radius: 50px;
+    color: #007EB9;
 }
 
 .button:hover {
@@ -102,25 +111,12 @@
 
 @media all and (max-width: 768px) {
     .button {
-        
-        font-size: 24px;
+        height: 41px;
     }
 } 
 
 @media all and (max-width: 425px) {
     .button {
-        height: 32px;
-        font-size: 16px;
+        height: 22px;
     }
 } 
-
-.button_link {
-    text-decoration: none;
-    color: white;
-}
-
-.button_span {
-    font-size: 16px;
-    font-family: Inter, Helvetica, sans-serif;
-    margin: 16px 0;
-}
