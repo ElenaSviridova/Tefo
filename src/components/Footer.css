@@ -4,9 +4,6 @@
     bottom: 0;
     width: fit-content;
     padding: 0 70px 20px;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, minmax(min-content, max-content)); */
     background-color: #E4E5EA; 
 }
 
