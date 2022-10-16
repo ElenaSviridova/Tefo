@@ -1,9 +1,9 @@
 body {
-  margin: 0;
-  background-color: #E4E5EA;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  max-width: 1440px;
+  height: 100vh;
+  background-color: #e4e5ea;
+  margin: 0 auto;
+  font-family: Inter, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

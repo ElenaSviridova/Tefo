@@ -17,7 +17,13 @@
     .header {
         margin: 0 48px;
     }
-}    
+} 
+
+@media all and (max-width: 490px) {
+    .header {
+        height: 54px;
+    }
+}   
 
 @media all and (max-width: 320px) {
     .header {
@@ -39,7 +45,7 @@
     }
 }  
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 490px) {
     .header__logo {
         font-size: 24px;
     }
@@ -59,9 +65,10 @@
     text-decoration: none;
 }
 
-@media all and (max-width: 425) {
+@media all and (max-width: 490px) {
     .header__link {
         font-size: 16px;
+        text-align: center;
     }
 }  
 
@@ -73,6 +80,7 @@
 
 .header__button {
     width: 161px;
+    padding: 0;
 }
 
 @media all and (max-width: 768px) {
@@ -82,7 +90,7 @@
     }
 } 
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 490px) {
     .header__button {
         width: 63px;
     }
@@ -90,10 +98,11 @@
 
 .button {
     box-sizing: border-box;
+    padding: 0;
     height: 53px;
     text-align: center;
     background-color: rgba(255, 255, 255, 10%);
-    border: solid 3px #007EB9;
+    border: solid 2px #007EB9;
     border-radius: 50px;
     color: #007EB9;
 }
@@ -105,7 +114,6 @@
 @media all and (max-width: 1024px) {
     .button {
         height: 42px;
-        padding: 0 16px;
     }
 }  
 
@@ -115,7 +123,7 @@
     }
 } 
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 490px) {
     .button {
         height: 22px;
     }
