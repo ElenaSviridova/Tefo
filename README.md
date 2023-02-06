@@ -6,4 +6,3 @@
 
 В данном проекте использовались HTML, CSS, JS, React.
 
-Ссылка на GitHub Pages
